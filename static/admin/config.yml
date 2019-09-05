@@ -172,8 +172,8 @@ collections:
               fields:
                 [
                   { label: "Label", name: "label", widget: "string" },
-                  { label: "Link Type", name: "linkType", widget: "select", options: ["internal", "external"] },
-                  { label: "Link URL", name: "link", widget: "string", hint: "Use a relative URL (e.g. /about) if the link is an internal link." },
+                  { label: "Link Type", name: "linkType", widget: "select", options: ["internal", "external", "blogify", "shopify"] },
+                  { label: "Link URL", name: "link", widget: "string", hint: "Use a relative URL (e.g. /about) if the link is an internal, blogify or shopify link type." },
                   { label: "ID", name: "id", widget: "string", default: "0" },
                   { label: "Parent ID", name: "parentid", widget: "string", default: "-1" },
                 ],
@@ -269,7 +269,8 @@ collections:
         fields:
           - { label: 'Site Title', name: 'title', widget: 'string' }
           - { label: 'Site Description', name: 'description', widget: 'string' }
-          - { label: 'Site Url', name: 'siteUrl', widget: 'string' }
+          - { label: 'Site Url', name: 'url', widget: 'string' }
+          - { label: 'Site Logo', name: 'logo', widget: 'image' }
           - { label: 'Author', name: 'author', widget: 'string' }
           - label: 'Blog Settings'
             name: 'blog'

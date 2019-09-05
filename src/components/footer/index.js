@@ -5,11 +5,6 @@ const Footer = () => (
   <StaticQuery
     query={graphql`
       query FooterQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
         allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "footer"}}}) {
           edges {
             node {
