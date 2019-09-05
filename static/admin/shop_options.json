@@ -1,11 +1,10 @@
 {
   "basePath": "/products",
   "productPath": "/product",
-  "shopTagline": "My Gatsby + Shopify Store",
+  "shopTagline": "My Shopify Store",
   "shopBtnlabel": "Learn more",
   "shopCurrency": "USD",
   "metaTitleTpl": "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
   "metaDescriptionTpl": "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
-  "productOptions": false,
-  "verbose": true
+  "verbose": false
 }
