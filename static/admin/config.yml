@@ -269,8 +269,8 @@ collections:
         fields:
           - { label: 'Site Title', name: 'title', widget: 'string' }
           - { label: 'Site Description', name: 'description', widget: 'string' }
-          - { label: 'Site Url', name: 'url', widget: 'string' }
-          - { label: 'Site Logo', name: 'logo', widget: 'image' }
+          - { label: 'Site Url', name: 'siteUrl', widget: 'string' }
+          - { label: 'Site Logo', name: 'siteLogo', widget: 'image' }
           - { label: 'Author', name: 'author', widget: 'string' }
           - label: 'Blog Settings'
             name: 'blog'

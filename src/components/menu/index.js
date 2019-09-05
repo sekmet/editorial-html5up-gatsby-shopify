@@ -39,7 +39,7 @@ const Menu = (props) => {
                   <li key={submenulink.id}>
                       {submenulink.linkType !== 'external' ?
                     <Link to={submenulink.link}>{submenulink.label}</Link> :
-                    <a href={submenulink.link} rel="noopener noreferrer">{submenulink.label}</a>}
+                    <a href={submenulink.link} target="_blank" rel="noopener noreferrer">{submenulink.label}</a>}
                   </li>
                 ))}
               </ul> : ''}
