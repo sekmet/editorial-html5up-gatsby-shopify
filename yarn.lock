@@ -6460,10 +6460,10 @@ gatsby-telemetry@^1.1.22:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-blogify@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.4.4.tgz#8c053b22f3bf8b938a4206a56bce002bb0c00c72"
-  integrity sha512-++kKRaNozaG95fEu0VfSPf+gNYKhlcr+/N0Tq9LYYuIHk+kUMcdFckd/kWuqkVa/IRKY1DnTe/6lYdC6lXv3Pg==
+gatsby-theme-blogify@^0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.4.9.tgz#3e3084162afae2f2d79582b74669979aae0a38ae"
+  integrity sha512-/Y1gOjparLLDPLVyLanvUUEnrl7XwoJdmgVVtUmnACC83WyBKWrmXde8x6GnP79XhYTYqG0YJcMNzC4o8s2eMA==
 
 gatsby-theme-shopifystore@^1.1.1:
   version "1.1.1"

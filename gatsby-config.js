@@ -3,7 +3,12 @@ require('dotenv').config({
 })
 const queries = require("./src/components/search/queries")
 const siteMetadata = require("./static/admin/site_metadata")
-const shopOptions = require('./gatsby-shopifystore')
+const blogOptions = require("./static/admin/blog_options")
+blogOptions.siteMetadata = siteMetadata
+const shopOptions = require("./static/admin/shop_options")
+const shopifyOptions = require('./gatsby-shopifystore')
+//set shopify buy button options
+shopOptions.productOptions = shopifyOptions
 
 module.exports = {
   siteMetadata: siteMetadata,
@@ -41,15 +46,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-theme-blogify",
-      options: {
-          basePath: "/posts",
-          articlePath: false,
-          blogTagline: 'My Blogify Articles',
-          readmoreBtnlabel: 'Read more',
-          siteMetadata: false,
-          metaTitleTpl: 'My Gatsby Blogify - Open4G Media',
-          metaDescriptionTpl: 'Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps',
-        },
+      options: blogOptions,
     },
     `gatsby-plugin-layout`,
     `gatsby-plugin-sass`,
@@ -92,17 +89,7 @@ module.exports = {
     },
     {
       resolve: "gatsby-theme-shopifystore",
-        options: {
-            basePath: "/products",
-            productPath: "/product",
-            shopTagline: "My Gatsby + Shopify Store",
-            shopBtnlabel: "Learn more",
-            shopCurrency: "USD",
-            metaTitleTpl: "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
-            metaDescriptionTpl: "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
-            productOptions: shopOptions,
-            verbose: true,
-        }
+        options: shopOptions
     },
     {
       resolve: `gatsby-plugin-algolia`,

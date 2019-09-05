@@ -1,0 +1,9 @@
+{
+  "basePath": "/posts",
+  "articlePath": false,
+  "blogTagline": "My Blogify Articles",
+  "readmoreBtnlabel": "Read more",
+  "siteMetadata": false,
+  "metaTitleTpl": "My Gatsby Blogify - Open4G Media",
+  "metaDescriptionTpl": "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps"
+}

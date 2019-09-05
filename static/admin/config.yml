@@ -281,6 +281,7 @@ collections:
                   widget: number,
                   min: 1,
                   max: 10,
+                  default: 6
                 }
               - { label: 'Default Author', name: author, widget: string }
               - { label: 'Default Thumbnail', name: thumb, widget: image, class: 'thumb', required: false }
@@ -296,3 +297,27 @@ collections:
           - { label: 'Font family', name: 'site_font_family', widget: 'fontpicker'}
           - { label: 'Heading font', name: 'site_heading_font', widget: 'fontpicker'}
           - { label: 'Fixed font', name: 'site_fixed_font', widget: 'fontpicker'}
+      - name: 'blogging'
+        label: 'Blog'
+        file: 'static/admin/blog_options.json'
+        description: 'Blog Settings'
+        fields:
+           - { label: 'Blog path', name: 'basePath', default: '/posts', widget: string }
+           - { label: 'Blog post path', name: 'articlePath', default: 'false' , widget: string }
+           - { label: 'Blog tagline', name: 'blogTagline', default: 'My Blogify Articles' , widget: string }
+           - { label: 'Read more button label', name: 'readmoreBtnlabel', default: 'Read more' , widget: string }
+           - { label: 'Meta title', name: 'metaTitleTpl', default: 'My Gatsby Blogify - Open4G Media' , widget: string }
+           - { label: 'Meta description', name: 'metaDescriptionTpl', default: 'Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps' , widget: string }
+      - name: 'shopify'
+        label: 'Shopify'
+        file: 'static/admin/shop_options.json'
+        description: 'Shopify Settings'
+        fields:
+           - { label: 'Shop path', name: 'basePath', default: '/products', widget: string }
+           - { label: 'Product path', name: 'productPath', default: '/product' , widget: string }
+           - { label: 'Shop tagline', name: 'shopTagline', default: 'My Gatsby + Shopify Store' , widget: string }
+           - { label: 'Details button label', name: 'shopBtnlabel', default: 'Learn more' , widget: string }
+           - { label: 'Shop currency', name: 'shopCurrency', default: 'USD' , widget: string }
+           - { label: 'Meta title template', name: 'metaTitleTpl', default: 'Buy %SHOPIFYPRODUCTNAME% - %STORENAME%' , widget: string }
+           - { label: 'Meta description Template', name: 'metaDescriptionTpl', default: 'Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!' , widget: string }
+           - { label: 'Verbose logging?', name: 'verbose', default: true , widget: boolean }

@@ -2,7 +2,7 @@
   "name": "editorial-html5up-gatsby-shopify",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby + Shopify and a stunning theme",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "author": "Carlos Guimarães <sekmet@open4g.com>",
   "dependencies": {
     "@sekmet/gatsby-source-google-analytics-reporting-api": "^0.2.7",
@@ -35,7 +35,7 @@
     "gatsby-remark-responsive-iframe": "^2.2.8",
     "gatsby-remark-smartypants": "^2.1.5",
     "gatsby-source-filesystem": "^2.1.16",
-    "gatsby-theme-blogify": "^0.4.4",
+    "gatsby-theme-blogify": "^0.4.9",
     "gatsby-theme-shopifystore": "^1.1.1",
     "gatsby-transformer-remark": "^2.6.19",
     "gatsby-transformer-sharp": "^2.2.11",
