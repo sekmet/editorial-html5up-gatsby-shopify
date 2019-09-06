@@ -7,16 +7,31 @@ menuItems:
     linkType: internal
     link: "/"
     parentid: "-1"
-  - id: '11'
-    label: Shopify Products
-    linkType: internal
-    link: "/products"
-    parentid: "-1"
   - id: '10'
     label: Blog Posts
     linkType: internal
     link: "/posts"
+    parentid: "-1"      
+  - id: '11'
+    label: All Shopify Products
+    linkType: internal
+    link: "/products"
+    parentid: "-1"
+  - id: '12'
+    label: Shopify Tag 1
+    linkType: internal
+    link: "/products/rape"
+    parentid: "-1"
+  - id: '13'
+    label: Shopify Tag 2
+    linkType: internal
+    link: "/products/incenso"    
     parentid: "-1"    
+  - id: '14'
+    label: Shopify Tag 3
+    linkType: internal
+    link: "/products/tabaco"    
+    parentid: "-1"        
   - id: '2'
     label: Generic
     linkType: internal

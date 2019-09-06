@@ -1,10 +1,8 @@
 {
-  "title": "GatsbyJS + Shopify Store + Netlify Starter",
+  "title": "GatsbyJS + Netlify Starter",
+  "poweredBy": "By Open4G Solutions",
   "description": "This barebones starter ships with the main Gatsby configuration files you might need.",
-  "siteUrl": "https://editorial-html5up-gatsby.netlify.com/",
   "author": "@2600hz",
-  "blog": {
-    "front_limit": 6,
-    "author": "Open4G Media"
-  }
+  "siteUrl": "https://editorial-html5up-gatsby.netlify.com/",
+  "siteLogo": "https://editorial-html5up-gatsby.netlify.com/logo.jpg"
 }

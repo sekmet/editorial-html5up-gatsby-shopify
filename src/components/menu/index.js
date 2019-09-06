@@ -37,7 +37,9 @@ const Menu = (props) => {
               <ul key={`${menulink.id}-sub`}>
                 {menulink.items.map(submenulink => (
                   <li key={submenulink.id}>
-                    <Link to={submenulink.link}>{submenulink.label}</Link>
+                      {submenulink.linkType !== 'external' ?
+                    <Link to={submenulink.link}>{submenulink.label}</Link> :
+                    <a href={submenulink.link} target="_blank" rel="noopener noreferrer">{submenulink.label}</a>}
                   </li>
                 ))}
               </ul> : ''}

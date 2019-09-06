@@ -173,7 +173,7 @@ collections:
                 [
                   { label: "Label", name: "label", widget: "string" },
                   { label: "Link Type", name: "linkType", widget: "select", options: ["internal", "external"] },
-                  { label: "Link URL", name: "link", widget: "string", hint: "Use a relative URL (e.g. /about) if the link is an internal link." },
+                  { label: "Link URL", name: "link", widget: "string", hint: "Use a relative URL (e.g. /about) if the link is an internal link type." },
                   { label: "ID", name: "id", widget: "string", default: "0" },
                   { label: "Parent ID", name: "parentid", widget: "string", default: "-1" },
                 ],
@@ -270,6 +270,7 @@ collections:
           - { label: 'Site Title', name: 'title', widget: 'string' }
           - { label: 'Site Description', name: 'description', widget: 'string' }
           - { label: 'Site Url', name: 'siteUrl', widget: 'string' }
+          - { label: 'Site Logo', name: 'siteLogo', widget: 'image' }
           - { label: 'Author', name: 'author', widget: 'string' }
           - label: 'Blog Settings'
             name: 'blog'
@@ -302,12 +303,12 @@ collections:
         file: 'static/admin/blog_options.json'
         description: 'Blog Settings'
         fields:
+           - { label: 'Meta title', name: 'metaTitleTpl', default: 'My Gatsby Blogify - Open4G Media' , widget: string }
+           - { label: 'Meta description', name: 'metaDescriptionTpl', default: 'Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps' , widget: string }
            - { label: 'Blog path', name: 'basePath', default: '/posts', widget: string }
            - { label: 'Blog post path', name: 'articlePath', default: 'false' , widget: string }
            - { label: 'Blog tagline', name: 'blogTagline', default: 'My Blogify Articles' , widget: string }
            - { label: 'Read more button label', name: 'readmoreBtnlabel', default: 'Read more' , widget: string }
-           - { label: 'Meta title', name: 'metaTitleTpl', default: 'My Gatsby Blogify - Open4G Media' , widget: string }
-           - { label: 'Meta description', name: 'metaDescriptionTpl', default: 'Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps' , widget: string }
       - name: 'shopify'
         label: 'Shopify'
         file: 'static/admin/shop_options.json'
@@ -315,6 +316,7 @@ collections:
         fields:
            - { label: 'Shop path', name: 'basePath', default: '/products', widget: string }
            - { label: 'Product path', name: 'productPath', default: '/product' , widget: string }
+           - { label: 'Tag/Category path', name: 'tagPath', default: 'false' , widget: string }
            - { label: 'Shop tagline', name: 'shopTagline', default: 'My Gatsby + Shopify Store' , widget: string }
            - { label: 'Details button label', name: 'shopBtnlabel', default: 'Learn more' , widget: string }
            - { label: 'Shop currency', name: 'shopCurrency', default: 'USD' , widget: string }
