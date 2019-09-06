@@ -1,10 +1,11 @@
 {
-  "basePath": "/products",
-  "productPath": "/product",
-  "shopTagline": "My Shopify Store",
+  "verbose": false,
+  "shopCurrency": "BRLBR",
   "shopBtnlabel": "Learn more",
-  "shopCurrency": "USD",
-  "metaTitleTpl": "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
+  "productPath": "false",
+  "basePath": "/",
+  "shopTagline": "My Shopify Store",
   "metaDescriptionTpl": "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
-  "verbose": false
+  "metaTitleTpl": "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
+  "tagPath": "false"
 }
