@@ -3,7 +3,7 @@
   "shopCurrency": "BRL",
   "shopBtnlabel": "Learn more",
   "productPath": "false",
-  "basePath": "/",
+  "basePath": "/products",
   "shopTagline": "My Shopify Store",
   "metaDescriptionTpl": "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
   "metaTitleTpl": "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
