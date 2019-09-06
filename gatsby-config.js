@@ -102,7 +102,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
-    {
+    /*{
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: 'UA-146806365-1',
@@ -116,7 +116,7 @@ module.exports = {
         viewId: process.env.GATSBY_GOOGLE_ANALYTICS_REPORT_VIEW_ID ? process.env.GATSBY_GOOGLE_ANALYTICS_REPORT_VIEW_ID : process.env.GOOGLE_ANALYTICS_REPORT_VIEW_ID,
         startDate: `2009-01-01`,
       }
-    },
+    },*/
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
