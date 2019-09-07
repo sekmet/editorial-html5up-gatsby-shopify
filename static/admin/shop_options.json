@@ -1,10 +1,15 @@
 {
-  "basePath": "/products",
-  "productPath": "/product",
-  "shopTagline": "My Shopify Store",
+  "basePath": "/",
+  "productPath": false,
+  "tagPath": false,
+  "shopTagline": "Shopify Store",
   "shopBtnlabel": "Learn more",
   "shopCurrency": "USD",
-  "metaTitleTpl": "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
-  "metaDescriptionTpl": "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
+  "shopMetaTitleTpl": "A Lightning Fast Shopify Store",
+  "shopMetaDescriptionTpl": "Specialty store for every thing!",
+  "tagMetaTitleTpl": "Best %SHOPIFYPRODUCTTAG% products you find at %STORENAME%",
+  "tagMetaDescriptionTpl": "%STORENAME% store specialty for %SHOPIFYPRODUCTTAG%.",
+  "itemMetaTitleTpl": "Buy %SHOPIFYPRODUCTNAME% - %STORENAME%",
+  "itemMetaDescriptionTpl": "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
   "verbose": false
 }

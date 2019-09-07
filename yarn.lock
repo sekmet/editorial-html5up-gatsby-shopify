@@ -6473,10 +6473,10 @@ gatsby-theme-blogify@^0.5.5:
   resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.5.5.tgz#4fa98776993dac288f0aeb97edd4960f09c3a8ea"
   integrity sha512-fkiVDaZ9jpQMLOL1DSA12cZvP6lsKunDgef6h7NJrC9iDck0fStSnTn1yXewOfwC2HI6Wncf2XT6jS1ZDAD12w==
 
-gatsby-theme-shopifystore@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-shopifystore/-/gatsby-theme-shopifystore-1.1.3.tgz#07fdc510d420300cfa628e8c5937cae6a221a777"
-  integrity sha512-e/TSSLWLF/uug5lBFXA1H+J/IKsdPn3iKXJeFsSoipLy/yDnh3Irevs+TjE8cfVQ2hRZLDujDI+1W/5ns/0IxQ==
+gatsby-theme-shopifystore@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-shopifystore/-/gatsby-theme-shopifystore-1.1.7.tgz#c50d8e7ea592684dfbe05af20740a85682489d9b"
+  integrity sha512-zhWvOQIC7zXuSWapLHPAnEIXRm8DNzSBJSlp96FKjAW9Wyc90nMqGE0HMofAtiQ3N8yJIDdtxjZNdKMm3Dh13g==
   dependencies:
     "@loadable/component" "^5.10.2"
     "@shopify/buy-button-js" "^0.12.1"

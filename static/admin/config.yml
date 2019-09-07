@@ -320,6 +320,10 @@ collections:
            - { label: 'Shop tagline', name: 'shopTagline', default: 'My Gatsby + Shopify Store' , widget: string }
            - { label: 'Details button label', name: 'shopBtnlabel', default: 'Learn more' , widget: string }
            - { label: 'Shop currency', name: 'shopCurrency', default: 'USD' , widget: string }
-           - { label: 'Meta title template', name: 'metaTitleTpl', default: 'Buy %SHOPIFYPRODUCTNAME% - %STORENAME%' , widget: string }
-           - { label: 'Meta description Template', name: 'metaDescriptionTpl', default: 'Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!' , widget: string }
+           - { label: 'Shop meta title template', name: 'shopMetaTitleTpl', default: 'My Shopify Store' , widget: string }
+           - { label: 'Shop meta description Template', name: 'shopMetaDescriptionTpl', default: 'Specialty store for every thing!' , widget: string }
+           - { label: 'Tag meta title template', name: 'tagMetaTitleTpl', default: 'Best %SHOPIFYPRODUCTTAG% products you find at %STORENAME%' , widget: string }
+           - { label: 'Tag meta description Template', name: 'tagMetaDescriptionTpl', default: '%STORENAME% store specialty for %SHOPIFYPRODUCTTAG%.' , widget: string }
+           - { label: 'Item meta title template', name: 'itemMetaTitleTpl', default: 'Buy %SHOPIFYPRODUCTNAME% - %STORENAME%' , widget: string }
+           - { label: 'Item meta description Template', name: 'itemMetaDescriptionTpl', default: 'Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!' , widget: string }
            - { label: 'Verbose logging?', name: 'verbose', default: true , widget: boolean }
