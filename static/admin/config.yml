@@ -68,6 +68,8 @@ collections:
     label: "Components"
     delete: false # Prevent users from deleting documents in this collection
     label_singular: "Component"
+    editor:
+      preview: false
     files:
       - file: "src/components/header/index.md"
         label: "Header"
