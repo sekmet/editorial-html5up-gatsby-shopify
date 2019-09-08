@@ -4,9 +4,11 @@ import { Link } from "gatsby"
 import { Calendar } from "styled-icons/octicons/Calendar"
 import { Tags } from "styled-icons/fa-solid/Tags"
 
+const shopOptions = require("../../../static/admin/shop_options")
+
 export const ProductHit = clickHandler => ({ hit }) => (
   <div>
-    <Link to={`/product/` + hit.handle} onClick={clickHandler}>
+    <Link to={`${shopOptions.productPath !== false && shopOptions.productPath !== "false" ? shopOptions.productPath : ''}/` + hit.handle} onClick={clickHandler}>
       <h4>
         <Highlight attribute="title" hit={hit} tagName="mark" />
       </h4>

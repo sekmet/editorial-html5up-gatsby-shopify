@@ -1,6 +1,6 @@
 {
-  "basePath": "/",
-  "productPath": false,
+  "basePath": "/products",
+  "productPath": "/product",
   "tagPath": false,
   "shopTagline": "Shopify Store",
   "shopBtnlabel": "Learn more",
