@@ -1,6 +1,6 @@
 {
   "verbose": false,
-  "shopCurrency": "USD",
+  "shopCurrency": "BRL",
   "itemMetaDescriptionTpl": "Specialty store for %SHOPIFYPRODUCTTAG%. Who compares purchase in %STORENAME%. Pay a visit!",
   "shopBtnlabel": "Learn more",
   "shopMetaDescriptionTpl": "Specialty store for every thing!",
@@ -8,7 +8,7 @@
   "tagMetaDescriptionTpl": "%STORENAME% store specialty for %SHOPIFYPRODUCTTAG%.",
   "shopMetaTitleTpl": "A Lightning Fast Shopify Store",
   "productPath": "/produtos",
-  "basePath": "/produtos",
+  "basePath": "/",
   "tagMetaTitleTpl": "Best %SHOPIFYPRODUCTTAG% products you find at %STORENAME%",
   "shopTagline": "Shopify Store",
   "tagPath": false
