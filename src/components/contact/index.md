@@ -1,12 +1,16 @@
 ---
 templateKey: contact
 visible: true
-title: Get in touch
-tagline: Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-phone: (000) 000-0000
-address: 1234 Somewhere Road 8254 Nashville, TN 00000-0000
+title: Entre em contato.
+tagline: >-
+  Dúvidas? Estamos prontos para ajuda-lo, escolha a forma de contato de sua
+  preferência.re. Proin sed aliquam facilisis ante interdum. Sed nulla amet
+  lorem feugiat tempus aliquam.
+phone: (16) 99756-3827
+address: São Carlos - SP
 email:
-  label: information@untitled.tld
+  label: rapesagrado@gmail.com
   linkType: external
-  linkUrl: mailto:information@untitled.tld
+  linkUrl: 'mailto:rapesagrado@gmail.com'
 ---
+
