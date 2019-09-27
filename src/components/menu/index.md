@@ -17,8 +17,8 @@ menuItems:
     linkType: internal
     parentid: '-1'
   - id: '13'
-    label: Shopify Tag 2
-    link: /products/incenso
+    label: Tabaco Mói
+    link: /produtos/tabaco
     linkType: internal
     parentid: '-1'
   - id: '10'
