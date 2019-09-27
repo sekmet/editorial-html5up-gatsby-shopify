@@ -7,8 +7,8 @@ menuItems:
     linkType: internal
     parentid: '-1'
   - id: '11'
-    label: All Shopify Products
-    link: /products
+    label: Produtos
+    link: /produtos
     linkType: internal
     parentid: '-1'
   - id: '12'
