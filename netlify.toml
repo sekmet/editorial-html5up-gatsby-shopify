@@ -1,0 +1,13 @@
+[build]
+  publish = "public/"
+  command = "gatsby build"
+[build.environment]
+  YARN_VERSION = "1.17.3"
+  YARN_FLAGS = "--no-ignore-optional"
+[template.environment]
+  GATSBY_SHOP_NAME = "Your Shopify Shop name"
+  GATSBY_SHOPIFY_ACCESS_TOKEN = "Your Shopify API access token"
+  GOOGLE_FONTS_API_KEY = "Your Google Fonts API Key (optional)"
+  GATSBY_ALGOLIA_APP_ID = "You Algolia App ID"
+  GATSBY_ALGOLIA_SEARCH_KEY = "You Algolia API Search Key"
+  GATSBY_ALGOLIA_ADMIN_KEY = "You Algolia API Admin Key"
