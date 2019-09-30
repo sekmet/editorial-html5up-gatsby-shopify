@@ -1,5 +1,6 @@
 ---
 templateKey: menu
+visible: true
 menuItems:
   - id: '1'
     label: Home
