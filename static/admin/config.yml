@@ -78,6 +78,7 @@ collections:
           preview: false
         fields:
           - { label: "Template Key", name: "templateKey", widget: "hidden", default: "header" }
+          - { label: "Visibility", name: "visible", widget: "boolean", default: true, hint: "Use to turn on/off component visibility." }
           - {
               label: "Social Links",
               name: "social",

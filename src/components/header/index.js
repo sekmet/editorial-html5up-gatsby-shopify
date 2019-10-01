@@ -19,6 +19,7 @@ const Header = ({ siteMetadata }) => (
                   linkUrl
                 }
                 templateKey
+                visible
               }
             }
           }
@@ -28,6 +29,7 @@ const Header = ({ siteMetadata }) => (
     render={data => {
 
       const social = data.allMarkdownRemark.edges[0].node.frontmatter.social
+      const visible = data.allMarkdownRemark.edges[0].node.frontmatter.visible
 
       return (
         <header id="header">
@@ -37,12 +39,16 @@ const Header = ({ siteMetadata }) => (
           >
             <strong>{siteMetadata.title}</strong> {siteMetadata.poweredBy}
           </Link>
+
+            {visible ?
           <ul className="icons">
             {social.map((litem, lidx) => {
               return (
                 <li key={lidx}><a href={litem.linkUrl} className={litem.class} target="_blank" rel="noopener noreferrer"><span className="label">{litem.label}</span></a></li>
               )})}
           </ul>
+            : ''}
+
         </header>
       )
     }}
