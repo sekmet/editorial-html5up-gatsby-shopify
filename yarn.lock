@@ -753,6 +753,13 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
+"@babel/runtime@^7.6.3":
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
+  integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.4.4.tgz#f4b88d1225689a08f5bc3a17483545be9e4ed237"
@@ -6175,6 +6182,13 @@ gatsby-plugin-google-analytics@^2.1.10:
   dependencies:
     "@babel/runtime" "^7.5.5"
 
+gatsby-plugin-google-tagmanager@^2.1.13:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-2.1.13.tgz#3062a624430a9bbeac640e70aae34386d1c3ba60"
+  integrity sha512-0sJyaTUWWs0iaVY7A6GZnghGxTJVgVp9gswPxB7P2txAStEMlpIlERBhdPhjY8Bjz33Cg18A2as5xv7gp+EN4A==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+
 gatsby-plugin-layout@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-layout/-/gatsby-plugin-layout-1.1.6.tgz#c90bc4a8cc3f167dc16d29413c8b1876eba9a355"
@@ -6473,13 +6487,15 @@ gatsby-theme-blogify@^0.5.5:
   resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.5.5.tgz#4fa98776993dac288f0aeb97edd4960f09c3a8ea"
   integrity sha512-fkiVDaZ9jpQMLOL1DSA12cZvP6lsKunDgef6h7NJrC9iDck0fStSnTn1yXewOfwC2HI6Wncf2XT6jS1ZDAD12w==
 
-gatsby-theme-shopifystore@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-shopifystore/-/gatsby-theme-shopifystore-1.1.7.tgz#c50d8e7ea592684dfbe05af20740a85682489d9b"
-  integrity sha512-zhWvOQIC7zXuSWapLHPAnEIXRm8DNzSBJSlp96FKjAW9Wyc90nMqGE0HMofAtiQ3N8yJIDdtxjZNdKMm3Dh13g==
+gatsby-theme-shopifystore@^1.1.12:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-shopifystore/-/gatsby-theme-shopifystore-1.1.12.tgz#4361a730c96e827f656d15672cf582c81eb9f004"
+  integrity sha512-e+0b3rza0rvhpOF0I8T9yHkJYI+WhVx/I/fYoEMZsEXwSg7R9E6ATYtds4UuzI9hTQEBf7Na5y3Np6MWTHwarg==
   dependencies:
     "@loadable/component" "^5.10.2"
+    "@sekmet/react-structured-data" "^1.2.3"
     "@shopify/buy-button-js" "^0.12.1"
+    "@sindresorhus/slugify" "^0.9.1"
     currency-symbol-map "^4.0.4"
     gatsby-image "^2.2.10"
     gatsby-plugin-sharp "^2.2.14"

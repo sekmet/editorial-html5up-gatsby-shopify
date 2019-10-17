@@ -326,6 +326,7 @@ collections:
            - { label: 'Shop currency', name: 'shopCurrency', default: 'USD' , widget: string }
            - { label: 'Shop meta title template', name: 'shopMetaTitleTpl', default: 'My Shopify Store' , widget: string }
            - { label: 'Shop meta description Template', name: 'shopMetaDescriptionTpl', default: 'Specialty store for every thing!' , widget: string }
+           - { label: 'Category slogan template', name: 'categorySloganTpl', default: 'Best %SHOPIFYPRODUCTTAG% products you find at %STORENAME%' , widget: string }
            - { label: 'Tag meta title template', name: 'tagMetaTitleTpl', default: 'Best %SHOPIFYPRODUCTTAG% products you find at %STORENAME%' , widget: string }
            - { label: 'Tag meta description Template', name: 'tagMetaDescriptionTpl', default: '%STORENAME% store specialty for %SHOPIFYPRODUCTTAG%.' , widget: string }
            - { label: 'Item meta title template', name: 'itemMetaTitleTpl', default: 'Buy %SHOPIFYPRODUCTNAME% - %STORENAME%' , widget: string }
