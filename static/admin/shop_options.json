@@ -7,7 +7,7 @@
   "itemMetaTitleTpl": " %SHOPIFYPRODUCTNAME% - %STORENAME%",
   "tagMetaDescriptionTpl": "Loja especializada em %SHOPIFYPRODUCTTAG%. Conecte-se com a energia ancestral. Entregamos para todo o Brasil. Confira!",
   "shopMetaTitleTpl": "Os melhores rapés",
-  "productPath": "/produtos",
+  "productPath": "/",
   "categorySloganTpl": "%SHOPIFYPRODUCTTAG%",
   "basePath": "/",
   "tagMetaTitleTpl": "Compre %SHOPIFYPRODUCTTAG% no %STORENAME%. ",
