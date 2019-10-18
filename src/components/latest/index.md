@@ -1,29 +1,35 @@
 ---
 templateKey: latest
-visible: true
-datasource: manual
+visible: false
 title: Latest Items
 items:
-  - tagline: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.
-    class: image
-    linkUrl: /
+  - class: image
     image:
-      src: /images//pic07.jpg
       alt: Editorial HTML5Up Gatsby Starter App
-  - tagline: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.
-    class: image
+      src: /images//pic07.jpg
     linkUrl: /
+    tagline: >-
+      Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore
+      aliquam.
+  - class: image
     image:
+      alt: Editorial HTML5Up Gatsby Starter App
       src: /images//pic08.jpg
-      alt: Editorial HTML5Up Gatsby Starter App 
-  - tagline: Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.
-    class: image
     linkUrl: /
+    tagline: >-
+      Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore
+      aliquam.
+  - class: image
     image:
+      alt: Editorial HTML5Up Gatsby Starter App
       src: /images//pic09.jpg
-      alt: Editorial HTML5Up Gatsby Starter App 
+    linkUrl: /
+    tagline: >-
+      Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore
+      aliquam.
 action:
-  label: Learn More
   class: button big
+  label: Learn More
   linkUrl: /markdown
 ---
+
