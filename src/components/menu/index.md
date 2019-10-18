@@ -9,17 +9,17 @@ menuItems:
     parentid: '-1'
   - id: '12'
     label: Rapé
-    link: /produtos/rape
+    link: /rape
     linkType: internal
     parentid: '-1'
   - id: '13'
     label: Tabaco Mói
-    link: /produtos/tabaco
+    link: /tabaco
     linkType: internal
     parentid: '-1'
   - id: '14'
     label: Incenso
-    link: /produtos/incenso
+    link: /incenso
     linkType: internal
     parentid: '-1'
 ---
