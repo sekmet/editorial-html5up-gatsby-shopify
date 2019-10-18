@@ -1,8 +1,11 @@
 {
-  "title": "GatsbyJS + Netlify Starter",
-  "poweredBy": "By Open4G Solutions",
+  "title": "Rapé Sagrado",
   "description": "This barebones starter ships with the main Gatsby configuration files you might need.",
+  "siteUrl": "https://rapesagrado.com.br",
+  "siteLogo": "https://editorial-html5up-gatsby.netlify.com/logo.jpg",
   "author": "@2600hz",
-  "siteUrl": "https://editorial-html5up-gatsby.netlify.com/",
-  "siteLogo": "https://editorial-html5up-gatsby.netlify.com/logo.jpg"
+  "blog": {
+    "front_limit": 4,
+    "author": "Rape Sagrado"
+  }
 }
