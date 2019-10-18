@@ -6,7 +6,7 @@
   "shopMetaDescriptionTpl": "Rapé Sagrado - O Poder ancestral. Loja especializada na medicina rapé. Entregamos para todo o Brasil. Clique aqui e confira!",
   "itemMetaTitleTpl": " %SHOPIFYPRODUCTNAME% - %STORENAME%",
   "tagMetaDescriptionTpl": "Loja especializada em %SHOPIFYPRODUCTTAG%. Conecte-se com a energia ancestral. Entregamos para todo o Brasil. Confira!",
-  "shopMetaTitleTpl": "Os melhores rapés | Rape Sagrado",
+  "shopMetaTitleTpl": "Os melhores rapés",
   "productPath": "/produtos",
   "categorySloganTpl": "%SHOPIFYPRODUCTTAG%",
   "basePath": "/",
