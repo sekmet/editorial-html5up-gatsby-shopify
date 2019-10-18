@@ -12,5 +12,5 @@
   "basePath": "/",
   "tagMetaTitleTpl": "Compre %SHOPIFYPRODUCTTAG% no %STORENAME%. ",
   "shopTagline": "Produtos",
-  "tagPath": false
+  "tagPath": "/produtos"
 }
