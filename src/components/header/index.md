@@ -1,13 +1,15 @@
 ---
 templateKey: header
+visible: true
 social:
-  - label: Twitter
-    class: icon brands fa-twitter
+  - class: icon brands fa-twitter
+    label: Twitter
     linkUrl: /
-  - label: Facebook
-    class: icon brands fa-facebook-f
-    linkUrl: /     
-  - label: Instagram
-    class: icon brands fa-instagram
-    linkUrl: /    
+  - class: icon brands fa-facebook-f
+    label: Facebook
+    linkUrl: /
+  - class: icon brands fa-instagram
+    label: Instagram
+    linkUrl: /
 ---
+
