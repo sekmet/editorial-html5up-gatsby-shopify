@@ -5,7 +5,7 @@
   "siteLogo": "https://editorial-html5up-gatsby.netlify.com/logo.jpg",
   "author": "@2600hz",
   "blog": {
-    "front_limit": 4,
+    "front_limit": 1,
     "author": "Rape Sagrado"
   }
 }
