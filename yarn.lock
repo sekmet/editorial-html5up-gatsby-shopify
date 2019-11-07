@@ -6487,10 +6487,10 @@ gatsby-theme-blogify@^0.5.5:
   resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.5.5.tgz#4fa98776993dac288f0aeb97edd4960f09c3a8ea"
   integrity sha512-fkiVDaZ9jpQMLOL1DSA12cZvP6lsKunDgef6h7NJrC9iDck0fStSnTn1yXewOfwC2HI6Wncf2XT6jS1ZDAD12w==
 
-gatsby-theme-shopifystore@^1.1.12:
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-shopifystore/-/gatsby-theme-shopifystore-1.1.12.tgz#4361a730c96e827f656d15672cf582c81eb9f004"
-  integrity sha512-e+0b3rza0rvhpOF0I8T9yHkJYI+WhVx/I/fYoEMZsEXwSg7R9E6ATYtds4UuzI9hTQEBf7Na5y3Np6MWTHwarg==
+gatsby-theme-shopifystore@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-shopifystore/-/gatsby-theme-shopifystore-1.1.13.tgz#11d275b1f60ba95f67bbf71d8ca91bc9cd6d8c9b"
+  integrity sha512-WRdKGJE4IzDFYRuyVf9ESCj/psqjPH9wOOj9nGpQuEB9N+nqww3Y6NtmBHkIaczNGMnYClkhV+mAR3DK6OOtoQ==
   dependencies:
     "@loadable/component" "^5.10.2"
     "@sekmet/react-structured-data" "^1.2.3"
