@@ -6482,10 +6482,10 @@ gatsby-telemetry@^1.1.22:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-blogify@^0.5.5:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.5.5.tgz#4fa98776993dac288f0aeb97edd4960f09c3a8ea"
-  integrity sha512-fkiVDaZ9jpQMLOL1DSA12cZvP6lsKunDgef6h7NJrC9iDck0fStSnTn1yXewOfwC2HI6Wncf2XT6jS1ZDAD12w==
+gatsby-theme-blogify@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-blogify/-/gatsby-theme-blogify-0.6.4.tgz#3e4722a1a40a7ee4d79e5566251fe89d2321e6fa"
+  integrity sha512-BWO881cMtf9kdHmWJgLEZRrJR/Mq9CFVqzTigp4JVOrnPLGNRvXc/x8CfLJFqQRYRdk/sjWL/tgvYDH8P80gXw==
 
 gatsby-theme-shopifystore@^1.1.13:
   version "1.1.13"
