@@ -43,7 +43,7 @@
     "gatsby-transformer-sharp": "^2.2.11",
     "jquery": "^3.4.1",
     "lazysizes": "^5.1.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "netlify-cms-app": "^2.9.7",
     "netlify-cms-widget-colorpickers": "^0.3.4",
     "netlify-cms-widget-fontpicker": "^0.5.3",
