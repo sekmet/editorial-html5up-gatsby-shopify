@@ -39,7 +39,7 @@
     "gatsby-source-filesystem": "^2.1.16",
     "gatsby-theme-blogify": "^0.6.4",
     "gatsby-theme-shopifystore": "^1.1.13",
-    "gatsby-transformer-remark": "^2.6.19",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.11",
     "jquery": "^3.4.1",
     "lazysizes": "^5.1.1",
